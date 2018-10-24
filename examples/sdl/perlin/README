@@ -1,0 +1,44 @@
+Name: Mitchell Bowser
+
+Course: CPSC 4160 - 2D Game Development
+
+Clemson Email Address: mbowser@g.clemson.edu
+
+Project no: 2
+
+Project due date: Sept. 21, 2018
+
+Project description: (Also, what image did you draw?)
+
+   The project task was to draw a 2D image using the SDL drawing primitives.
+   I've always loved maps, and seeing some of Dr. Malloy's skyrim adventures
+   made me want to create a fantasy map generator. The program generates three
+   layers of perlin noise, scales it down between [0,1], and then maps those
+   values to a set of user defined color divisions. The results can be modified
+   by changing the noise scales, the noise layer ratios, or the color divisions.
+
+   Image Drawn: A fantasy map with landmasses and water, containing varying
+   heights across the surface.
+
+   Controls:
+      Pan camera: arrow keys
+      Generate new map (increment perlin seed): space bar
+
+   Noise Library References:
+   https://github.com/sol-prog/Perlin_Noise
+   https://solarianprogrammer.com/2012/07/18/perlin-noise-cpp-11/
+
+   All code in Perlin.cpp and .h belongs to Solarian Programmer.
+
+The easiest part of this project:
+   Converting the drawCircle() function into one that filled everything but the
+   circle.
+
+Problems that I had in completing this project:
+   Some of the free noise libraries online had much more functionality than I
+   needed for this project. I ended up using a version from Solarian that was
+   only concerned with basic perlin noise.
+
+	In addition, there were a few warnings from -Weffective c++ that dealt with
+	initializer lists I hadn't considered before. Mostly for using it to
+	initialize my div vector in colorPicker to be empty.
