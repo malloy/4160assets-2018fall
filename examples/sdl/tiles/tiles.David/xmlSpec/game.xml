@@ -1,0 +1,87 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<world>
+  <worldWidth>720</worldWidth>
+  <worldHeight>1280</worldHeight>
+</world>
+
+<demo>true</demo>
+
+<screenTitle>A Viewport into a World</screenTitle>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>0</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<back>
+  <back>images/background.png</back>
+  <viewWidth>720</viewWidth>
+  <viewHeight>1280</viewHeight>
+</back>
+
+<charactermulti2way>
+  <charactermulti2wayFile>images/charactermulti2way.png</charactermulti2wayFile>
+  <charactermulti2waySrcX>0</charactermulti2waySrcX>
+  <charactermulti2waySrcY>0</charactermulti2waySrcY>
+  <charactermulti2wayWidth>46</charactermulti2wayWidth>
+  <charactermulti2wayHeight>43</charactermulti2wayHeight>
+  <charactermulti2wayLoc charactermulti2wayX="10" charactermulti2wayY="10"/>
+  <charactermulti2waySpeed charactermulti2waySpeedX="100" charactermulti2waySpeedY="250"/>
+  <charactermulti2wayTransparency>true</charactermulti2wayTransparency>
+  
+  <charactermulti2wayFrames>4</charactermulti2wayFrames>
+  <charactermulti2wayFrameInterval>15</charactermulti2wayFrameInterval>
+</charactermulti2way>
+
+<info>
+  <infoFile>images/info.png</infoFile>
+  <infoSrcX>0</infoSrcX>
+  <infoSrcY>0</infoSrcY>
+  <infoWidth>300</infoWidth>
+  <infoHeight>480</infoHeight>
+  <infoLoc infoX="0" infoY="0"/>
+  <infoSpeed infoSpeedX="0" infoSpeedY="0"/>
+  <infoTransparency>true</infoTransparency>
+</info>
+
+<tilefloor>
+  <tilefloorFile>images/tilefloor.png</tilefloorFile>
+  <tilefloorSrcX>0</tilefloorSrcX>
+  <tilefloorSrcY>0</tilefloorSrcY>
+  <tilefloorWidth>100</tilefloorWidth>
+  <tilefloorHeight>100</tilefloorHeight>
+  <tilefloorLoc tilefloorX="0" tilefloorY="0"/>
+  <tilefloorSpeed tilefloorSpeedX="0" tilefloorSpeedY="0"/>
+  <tilefloorTransparency>true</tilefloorTransparency>
+</tilefloor>
+
+<explosion>
+  <explosionFile>images/explosion.png</explosionFile>
+  <explosionLoc explosionX="320" explosionY="100"/>
+
+  <explosionFrames>3</explosionFrames>
+  <explosionFrameInterval>10</explosionFrameInterval>
+
+  <explosionSrcX>0</explosionSrcX>
+  <explosionSrcY>0</explosionSrcY>
+  <explosionWidth>80</explosionWidth>
+  <explosionHeight>80</explosionHeight>
+  <explosionSpeedX>000</explosionSpeedX>
+  <explosionSpeedY>000</explosionSpeedY>
+  <explosionTransparency>true</explosionTransparency>
+</explosion>
+
+</GameData>
