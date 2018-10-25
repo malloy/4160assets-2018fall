@@ -1,10 +1,11 @@
 
 Oct 25, Thu:
   -- github repo
-  -- player/composition
+  -- player/composition ==> it's composition so need player.getVelocity()
   -- drawable.h in tracker framework didn't have
      method getSurface
   -- input/mouse2
+    -- to get pixel color see getPixel
 
 Oct 23, Tue:
   -- Exam #1
