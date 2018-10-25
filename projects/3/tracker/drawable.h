@@ -26,6 +26,7 @@ public:
   void  setScale(float s) { scale = s; }
   virtual int getScaledWidth() const = 0;
   virtual int getScaledHeight() const = 0;
+  virtual const SDL_Surface* getSurface() const = 0;
 
   const std::string& getName() const { return name; }
   void setName(const std::string& n) { name = n;    }
