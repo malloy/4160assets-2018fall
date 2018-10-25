@@ -1,6 +1,10 @@
 
 Oct 25, Thu:
   -- github repo
+  -- player/composition
+  -- drawable.h in tracker framework didn't have
+     method getSurface
+  -- input/mouse2
 
 Oct 23, Tue:
   -- Exam #1
