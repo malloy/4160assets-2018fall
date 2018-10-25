@@ -1,0 +1,129 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<screenTitle>Measuring Keyboard Bounce</screenTitle>
+<numberOfTrackedSprites>2</numberOfTrackedSprites>
+<numberOfBats>2</numberOfBats>
+<numberOfMeteors>120</numberOfMeteors>
+<maxStringSize>50</maxStringSize>
+
+<hud>
+  <width>200</width>
+  <height>200</height>
+  <x>10</x>
+  <y>10</y>
+  <totalShowTime>3</totalShowTime>
+  <showAtStart>true</showAtStart>
+  <showHud>true</showHud>
+</hud>
+
+<view>
+  <width>300</width>
+  <height>300</height>
+</view>
+
+<world>
+  <width>20000</width>
+  <height>720</height>
+</world>
+
+<font name="font">
+  <file>font/OpenSans-Semibold.ttf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<hills>
+  <file>images/hills.bmp</file>
+  <width>1440</width>
+  <height>720</height>
+  <src x="0" y="0"/>
+  <speed x="0" y="0"/>
+  <startLoc x="0" y="0"/>
+  <transparency>true</transparency>
+</hills>
+
+<mountains>
+  <file>images/mountains.bmp</file>
+  <width>1440</width>
+  <height>720</height>
+  <src x="0" y="0"/>
+  <speed x="0" y="0"/>
+  <startLoc x="0" y="0"/>
+  <transparency>true</transparency>
+</mountains>
+
+<clouds>
+  <file>images/clouds.png</file>
+  <width>1440</width>
+  <height>720</height>
+  <src x="0" y="0"/>
+  <speed x="0" y="0"/>
+  <startLoc x="0" y="0"/>
+  <transparency>false</transparency>
+</clouds>
+
+
+<meteor>
+  <!-- We'll start putting them at meteorMinX, and stop at meteorMaxX -->
+  <!-- Of course, their horizontal position is affected by SpeedX     -->
+  <startLoc minX="2500" maxX="5500" y="0"/>
+  <file>images/asteroid.png</file>
+  <frames>30</frames>
+  <width>60</width>
+  <height>60</height>
+  <rows>6</rows>
+  <columns>5</columns>
+  <frameInterval>9</frameInterval>
+  <frameMin>6</frameMin>
+  <minFrameDelay>0.40</minFrameDelay>
+  <src x="0" y="0"/>
+  <speed x="25" y="200"/>
+  <minSpeed x="5" y="100"/>
+  <scale min="0.2" max="2.0"/>
+  <transparency>true</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>200</distance>
+  </chunk>
+</meteor>
+
+<pter>
+  <file>images/pterFlyRight.bmp</file>
+  <frames>4</frames>
+  <frameInterval>25</frameInterval>
+  <minFrameDelay>0.9</minFrameDelay>
+  <width>120</width>
+  <height>120</height>
+  <src x="0" y="0"/>
+  <speed x="350" y="300"/>
+  <slowDown>0.95</slowDown>
+  <startLoc x="200" y="400"/>
+  <bound upper="100" lower="620"/>
+  <bulletName>egg</bulletName>
+  <transparency>true</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>200</distance>
+  </chunk>
+</pter>
+
+<pterLeft>
+  <file>images/pterFlyLeft.bmp</file>
+  <frames>4</frames>
+  <frameInterval>25</frameInterval>
+  <minFrameDelay>0.4</minFrameDelay>
+  <width>120</width>
+  <height>120</height>
+  <src x="0" y="0"/>
+  <speed x="350" y="300"/>
+  <startLoc x="550" y="400"/>
+  <bound upper="100" lower="620"/>
+  <bulletName>egg</bulletName>
+  <transparency>true</transparency>
+</pterLeft>
+
+</GameData>
