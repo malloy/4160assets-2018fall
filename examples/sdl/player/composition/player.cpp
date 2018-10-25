@@ -10,9 +10,9 @@ Player::Player( const std::string& name) :
 { }
 
 void Player::stop() { 
-  //setVelocity( Vector2f(0, 0) );
-  setVelocityX( 0.93*getVelocityX() );
-  setVelocityY(0);
+  //player.setVelocity( Vector2f(0, 0) );
+  player.setVelocityX( 0.93*player.getVelocityX() );
+  player.setVelocityY(0);
 }
 
 void Player::right() { 
