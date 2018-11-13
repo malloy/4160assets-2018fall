@@ -1,0 +1,53 @@
+<?xml version = "1.0"?>
+<Game>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+  <worldWidth>640</worldWidth>
+  <worldHeight>480</worldHeight>
+</screen>
+<screenTitle>An Exploding Sprite</screenTitle>
+
+<Font name="font">
+  <fontFile>font/pirulen.ttf</fontFile>
+  <fontSize>16</fontSize>
+
+  <fontRed>0</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</Font>
+<maxStringSize>50</maxStringSize>
+
+<orb>
+  <orbFile>images/redorb.png</orbFile>
+  <orbSrcX>0</orbSrcX>
+  <orbSrcY>0</orbSrcY>
+  <orbWidth>32</orbWidth>
+  <orbHeight>32</orbHeight>
+  <orbLoc orbX="320" orbY="240"/>
+  <orbSpeed orbSpeedX="50" orbSpeedY="250"/>
+  <orbMaxSpeed orbMaxXspeed="350" orbMaxYspeed="300"/>
+  <orbTransparency>false</orbTransparency>
+</orb>
+
+<orbChunk>
+  <orbChunkFile>images/redorb.png</orbChunkFile>
+  <orbChunkSrcX>0</orbChunkSrcX>
+  <orbChunkSrcY>0</orbChunkSrcY>
+  <orbChunkWidth>32</orbChunkWidth>
+  <orbChunkHeight>32</orbChunkHeight>
+  <orbChunkLoc orbChunkX="10" orbChunkY="10"/>
+  <orbChunkSpeed orbChunkXspeed="250" orbChunkYspeed="250"/>
+  <orbChunkMaxSpeed orbChunkMaxXspeed="350" orbChunkMaxYspeed="300"/>
+  <orbChunkTransparency>true</orbChunkTransparency>
+  <orbChunkSize>12</orbChunkSize>
+  <orbChunkMinLife>1000</orbChunkMinLife>
+  <orbChunkMaxLife>4000</orbChunkMaxLife>
+</orbChunk>
+
+</Game>

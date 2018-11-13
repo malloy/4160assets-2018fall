@@ -1,0 +1,69 @@
+\documentclass[times, 11pt]{article}
+\usepackage{times}
+\usepackage{txfonts}
+
+\newcommand{\cpp}{$C^{++}$}
+\ifx\pdfoutput\undefined
+  \usepackage[dvips]{graphicx}
+  \usepackage[dvips,dvipsnames]{color}
+\else
+  \usepackage[pdftex]{graphicx}
+  \usepackage[pdftex,dvipsnames]{color}
+
+  \pdfinfo {
+	/Author (Brian A. Malloy)
+	/Title (Milestone: 870)
+}
+\fi
+
+\def\figline{\rule{\textwidth}{0.3mm}}
+\def\shortline{\hrulefill}
+
+
+\newenvironment{packedEnum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packedItem}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\begin{document}
+
+
+%don't want date printed
+\date{}
+
+
+\begin{center}
+CpSc 870: Object Oriented Program Development \\
+Computer Science Division, Clemson University \\
+{\bf Animation Framework} \\
+{\footnotesize Brian Malloy, PhD} \\
+\today
+\end{center}
+
+\vspace{.2in}
+
+\bibliographystyle{plain}
+
+
+\date{}
+\baselineskip = 16pt
+\pagenumbering{arabic}
+
+\begin{figure*}[t]
+\centerline{\includegraphics[width=1.05\textwidth] {figures/classdiagram}}
+\caption{{\bf Class Diagram of a framework for animations}.
+}
+\label{fig:classdiagram}
+\figline
+\end{figure*}
+
+\end{document}
