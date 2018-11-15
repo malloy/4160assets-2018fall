@@ -1,0 +1,4 @@
+
+To make the tracker framework scroll infinitely in both directions,
+I made changes to sprite.cpp, multisprite.cpp, viewport.cpp and
+world.cpp
