@@ -20,6 +20,13 @@ std::ostream& operator<<(std::ostream& out, const Number* number) {
   return out << number->getNumber();
 }
 
+class NumberLess {
+public:
+  bool operator()(const Number* lhs, const Number* rhs) const {
+    return lhs->getNumber() < rhs->getNumber();
+  }
+};
+
 void init(std::list<Number*> & numberList) {
   for (unsigned int i = 0; i < MAX; ++i) {
     numberList.push_back( new Number(rand() % MAX_NUMBER) );
@@ -39,5 +46,6 @@ void print(const std::list<Number*> & numberList) {
 int main() {
   std::list<Number*> numberList;
   init(numberList);
+  numberList.sort( NumberLess() );
   print(numberList);
 }
