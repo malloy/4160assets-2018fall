@@ -29,9 +29,14 @@ Engine::Engine() :
   makeVideo( false )
 {
   {
-    Drawable* s = new Sprite("yellowstar32");
+    Drawable* s = new MultiSprite("snowballRollRight");
+    s->setScale(0.3);
+    sprites.push_back(s);
+
+    s = new Sprite("yellowstar32");
     s->setScale(2);
     sprites.push_back(s);
+
     s = new Sprite("yellowstar32");
     sprites.push_back(s);
   }
