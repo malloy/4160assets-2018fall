@@ -1,0 +1,13 @@
+
+There is an error in the code. We need to set the scale
+for a multisprite. So change the explode function in MultiSprite to:
+
+
+void MultiSprite::explode() {
+  if ( !explosion ) {
+    Sprite 
+    sprite(getName(), getPosition(), getVelocity(), images[currentFrame]);
+    sprite.setScale( getScale() );
+    explosion = new ExplodingSprite(sprite);
+  }
+}
