@@ -76,7 +76,7 @@ void Sprite::update(Uint32 ticks) {
     explosion->update(ticks);
     if ( explosion->chunkCount() == 0 ) {
       delete explosion;
-      explosion = NULL;
+      explosion = nullptr;
     }
     return;
   }

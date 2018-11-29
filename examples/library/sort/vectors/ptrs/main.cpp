@@ -21,7 +21,7 @@ std::ostream& operator<<(std::ostream& out, const Number* number) {
 class NumberLess{
 public:
   bool operator()(const Number* const lhs, const Number* const rhs) const {
-    return lhs->getNumber() > rhs->getNumber();
+    return lhs->getNumber() < rhs->getNumber();
   }
 };
 

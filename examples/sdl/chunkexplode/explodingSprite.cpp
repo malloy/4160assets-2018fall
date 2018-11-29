@@ -31,7 +31,7 @@ void ExplodingSprite::draw() const {
 }
 
 void ExplodingSprite::update(Uint32 ticks) { 
-  std::list<Chunk*>::iterator ptr = chunks.begin();
+  auto ptr = chunks.begin();
   while (ptr != chunks.end()) {
     (*ptr)->update(ticks);
     if ( (*ptr)->goneTooFar()) {  // Check to see if we should free a chunk
