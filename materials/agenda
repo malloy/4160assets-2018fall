@@ -1,3 +1,14 @@
+Nov 29, Thu:
+  -- Review updated specs for Project #5
+  -- Review specs for Project #6
+  -- Bug in Explosion when: SCALED MULTISPRITE
+    -- We can apply a bandaid
+    -- Let's fix Emily's code
+    -- What's the real design error?
+    -- Of sprites are too large -- wait for it ...
+  -- Let's implement Restart (atonement for Emily)!
+  -- Let's do sorting and searching.
+  -- Review for exam #2
 
 Nov 27, Tue:
   -- Exam #2 is Tuesday, Dec 4th

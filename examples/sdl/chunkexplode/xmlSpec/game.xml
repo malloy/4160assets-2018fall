@@ -50,6 +50,22 @@
   <transparency>true</transparency>
 </SpinningStar>
 
+<snowballRollRight>
+  <file>assets/snowballRollRight.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>6</frames>
+  <frameInterval>150</frameInterval>
+  <speedX>100</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</snowballRollRight>
+
+
+
 <goalpost>
   <file>assets/goalpost.png</file>
   <startLoc x="500" y="140"/>
