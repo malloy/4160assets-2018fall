@@ -1,6 +1,7 @@
 Nov 29, Thu:
   -- Bug in Explosion when: SCALED MULTISPRITE
     -- We can apply a bandaid
+    -- Let's fix Emily's code
     -- What's the real design error?
     -- Of sprites are too large -- wait for it ...
   -- Ask Colin if he's here and still annoyed with me
