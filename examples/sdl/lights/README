@@ -1,0 +1,17 @@
+Overview: This demo is, basically, the tracker framework with two
+sprites rolling around the world. However, within the world are two
+lights whose number, location, brightness, and size, are specified
+in the XML for the game.
+
+To convert an existing tracker framework to contain the lights:
+(1) copy the 6 files into the game directory: lights.h, lights.cpp,
+    light.h, light.cpp, triple.h, triple.cpp.
+(2) Add information about the lights to your XML document.
+(3) Add to engine.h: 
+    #include "lights.h"
+    Lights lights;
+(4) Add to engine.cpp:
+    lights(), to constructor
+    lights.draw();
+    lights.update();
+(3) compile and run.
