@@ -1,0 +1,63 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Fiery Explosion</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>200</maxFrames>
+<username>malloy</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>854</width>
+  <height>480</height>
+</world>
+
+<back>
+  <file>assets/white.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<explode1>
+  <file>assets/explode1.png</file>
+  <startLoc x="460" y="270"/>
+  <frames>20</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <imageWidth>96</imageWidth>
+  <imageHeight>96</imageHeight>
+  <transparency>true</transparency>
+</explode1>
+
+<explode2>
+  <file>assets/explode2.png</file>
+  <startLoc x="200" y="250"/>
+  <frames>24</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <imageWidth>128</imageWidth>
+  <imageHeight>128</imageHeight>
+  <transparency>true</transparency>
+</explode2>
+
+</GameData>
