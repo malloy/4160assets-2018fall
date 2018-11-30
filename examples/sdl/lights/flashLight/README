@@ -1,0 +1,16 @@
+
+Using this version of the Light and Lights classes, the light
+will automatically track the object currently being tracked;
+of course you can hit the "t" key and change the tracked object.
+It works this way because in Light::update I use the Viewport
+singleton to get the position of the object being tracked.
+
+The (x, y) coordinates of the light in this sample is the upper
+left corner of the bounding box around the light. But I wanted
+the player to be in the middle of the light. However, I couldn't 
+figure out how to compute the radius of the light so I used a hack:
+  There is a field "fakeRadius" in the game.xml file where I guess
+  at the radius. If you happen to change some of the parameters
+  to the light module you may have to adjust the fakeRadius.
+
+Good luck and let me know if you have problems.

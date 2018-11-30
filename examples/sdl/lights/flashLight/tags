@@ -1,0 +1,373 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+$(DEPDIR)/%.d	Makefile	/^$(DEPDIR)\/%.d: ;$/;"	t
+$(EXEC)	Makefile	/^$(EXEC): $(OBJFLS)$/;"	t
+$(OBJDIR)/%.o	Makefile	/^$(OBJDIR)\/%.o: %.cpp $(DEPDIR)\/%.d$/;"	t
+$(OBJDIR)/%.o	Makefile	/^$(OBJDIR)\/%.o: %.cpp$/;"	t
+BUFSIZE	parseXML.h	/^const int BUFSIZE = 512;$/;"	v	typeref:typename:const int
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = `sdl2-config --cflags` -g -W -Wall -std=c++11 -Weffc++ -Wextra -pedantic -O0 -I `sdl2/;"	m
+Clock	clock.cpp	/^Clock::Clock() :$/;"	f	class:Clock
+Clock	clock.cpp	/^Clock::Clock(const Clock& c) :$/;"	f	class:Clock
+Clock	clock.h	/^class Clock {$/;"	c
+DEPFLAGS	Makefile	/^DEPFLAGS = -MT $@ -MMD -MP -MF $(DEPDIR)\/$(basename $*).Td$/;"	m
+DRAWABLE__H	drawable.h	/^#define DRAWABLE__H$/;"	d
+Drawable	drawable.h	/^  Drawable(const Drawable& s) : $/;"	f	class:Drawable
+Drawable	drawable.h	/^  Drawable(const std::string& n, const Vector2f& pos, const Vector2f& vel): $/;"	f	class:Drawable
+Drawable	drawable.h	/^class Drawable {$/;"	c
+EXEC	Makefile	/^EXEC = run$/;"	m
+Engine	engine.cpp	/^Engine::Engine() :$/;"	f	class:Engine
+Engine	engine.h	/^class Engine {$/;"	c
+FRAME_CAP_ON	clock.h	/^  const bool FRAME_CAP_ON;$/;"	m	class:Clock	typeref:typename:const bool
+FrameGenerator	frameGenerator.cpp	/^FrameGenerator::FrameGenerator() : $/;"	f	class:FrameGenerator
+FrameGenerator	frameGenerator.h	/^class FrameGenerator {$/;"	c
+GAMEDATA__H	gamedata.h	/^#define GAMEDATA__H$/;"	d
+Gamedata	gamedata.cpp	/^Gamedata::Gamedata(const string& fn ) :$/;"	f	class:Gamedata
+Gamedata	gamedata.h	/^class Gamedata {$/;"	c
+HEIGHT	frameGenerator.h	/^  const int HEIGHT;$/;"	m	class:FrameGenerator	typeref:typename:const int
+IMAGE__H	image.h	/^#define IMAGE__H$/;"	d
+IOmod	ioMod.cpp	/^IOmod::IOmod() : $/;"	f	class:IOmod
+IOmod	ioMod.h	/^class IOmod {$/;"	c
+Image	image.cpp	/^Image::Image( SDL_Surface* surf, SDL_Texture* tex ) : $/;"	f	class:Image
+Image	image.cpp	/^Image::Image( const Image& image ) :$/;"	f	class:Image
+Image	image.h	/^class Image {$/;"	c
+ImageFactory	imageFactory.h	/^  ImageFactory() : $/;"	f	class:ImageFactory
+ImageFactory	imageFactory.h	/^class ImageFactory {$/;"	c
+LDFLAGS	Makefile	/^LDFLAGS = `sdl2-config --libs` -lm -lSDL2_image -lexpat -lSDL2_ttf -lSDL2_mixer$/;"	m
+Light	light.h	/^   Light(const Light& l) : loc(l.loc), translated(),$/;"	f	class:Light
+Light	light.h	/^   Light(const Triple& il = Triple(0.0,0.0,1.0),$/;"	f	class:Light
+Light	light.h	/^   Light(std::string name) :$/;"	f	class:Light
+Light	light.h	/^class Light {$/;"	c
+Lights	lights.cpp	/^Lights::Lights( ) :$/;"	f	class:Lights
+Lights	lights.h	/^class Lights {$/;"	c
+MAX_FRAMES	frameGenerator.h	/^  const int MAX_FRAMES;$/;"	m	class:FrameGenerator	typeref:typename:const int
+MULTISPRITE__H	multisprite.h	/^#define MULTISPRITE__H$/;"	d
+MultiSprite	multisprite.cpp	/^MultiSprite::MultiSprite( const std::string& name) :$/;"	f	class:MultiSprite
+MultiSprite	multisprite.cpp	/^MultiSprite::MultiSprite(const MultiSprite& s) :$/;"	f	class:MultiSprite
+MultiSprite	multisprite.h	/^class MultiSprite : public Drawable {$/;"	c
+N	spriteSheet.h	/^  unsigned Nr,Nc,N;$/;"	m	class:SpriteSheet	typeref:typename:unsigned
+Nc	spriteSheet.h	/^  unsigned Nr,Nc,N;$/;"	m	class:SpriteSheet	typeref:typename:unsigned
+NonOwning	spriteSheet.h	/^  static const struct NonOwningT{} NonOwning;$/;"	m	class:SpriteSheet	typeref:typename:const struct SpriteSheet::NonOwningT
+NonOwningT	spriteSheet.h	/^  static const struct NonOwningT{} NonOwning;$/;"	s	class:SpriteSheet
+Nr	spriteSheet.h	/^  unsigned Nr,Nc,N;$/;"	m	class:SpriteSheet	typeref:typename:unsigned
+OBJDIR	Makefile	/^OBJDIR  = build$/;"	m
+OBJFLS	Makefile	/^OBJFLS = $(patsubst %.cpp, $(OBJDIR)\/%.o, $(SRCFLS))$/;"	m
+PARSEXML__H	parseXML.h	/^#define PARSEXML__H$/;"	d
+PERIOD	clock.h	/^  const Uint32 PERIOD;$/;"	m	class:Clock	typeref:typename:const Uint32
+ParseXML	parseXML.h	/^  ParseXML( const string& fn ) : $/;"	f	class:ParseXML
+ParseXML	parseXML.h	/^class ParseXML {$/;"	c
+RenderContext	renderContext.cpp	/^RenderContext::RenderContext() : $/;"	f	class:RenderContext
+RenderContext	renderContext.h	/^class RenderContext{$/;"	c
+SCALE_EPSILON	sprite.cpp	/^  constexpr float SCALE_EPSILON = 2e-7;$/;"	v	namespace:__anondaa73a2d0310	typeref:typename:float
+SPRITE__H	sprite.h	/^#define SPRITE__H$/;"	d
+SRCDIR	Makefile	/^SRCDIR = $(dir $(SRCPTH))$/;"	m
+SRCFLS	Makefile	/^SRCFLS = $(notdir $(SRCPTH))$/;"	m
+SRCPTH	Makefile	/^SRCPTH = $(shell find . -regex ".*\\.cpp" | tr '\\n' ' ')$/;"	m
+Sprite	sprite.cpp	/^Sprite::Sprite(const Sprite& s) :$/;"	f	class:Sprite
+Sprite	sprite.cpp	/^Sprite::Sprite(const std::string& name) :$/;"	f	class:Sprite
+Sprite	sprite.cpp	/^Sprite::Sprite(const string& n, const Vector2f& pos, const Vector2f& vel,$/;"	f	class:Sprite
+Sprite	sprite.h	/^class Sprite : public Drawable {$/;"	c
+SpriteSheet	spriteSheet.h	/^  SpriteSheet(SDL_Surface* _src, int w, int h)$/;"	f	class:SpriteSheet
+SpriteSheet	spriteSheet.h	/^  SpriteSheet(SDL_Surface* _src, int w, int h, const NonOwningT)$/;"	f	class:SpriteSheet
+SpriteSheet	spriteSheet.h	/^class SpriteSheet{$/;"	c
+Triple	triple.h	/^   Triple(const Triple& t) : x(t.x), y(t.y), z(t.z) {}$/;"	f	class:Triple
+Triple	triple.h	/^   Triple(double xi=0.0, double yi=0.0, double zi=0.0) : x(xi), y(yi), z(zi) {}$/;"	f	class:Triple
+Triple	triple.h	/^class Triple {$/;"	c
+USERNAME	frameGenerator.h	/^  const std::string USERNAME;$/;"	m	class:FrameGenerator	typeref:typename:const std::string
+VECTOR2F__H	vector2f.h	/^#define VECTOR2F__H$/;"	d
+VIEWPORT__H	viewport.h	/^#define VIEWPORT__H$/;"	d
+VPATH	Makefile	/^VPATH = $(SRCDIR)$/;"	m
+Vector2f	vector2f.cpp	/^Vector2f::Vector2f(float x, float y) {$/;"	f	class:Vector2f
+Vector2f	vector2f.h	/^class Vector2f {$/;"	c
+Viewport	viewport.cpp	/^Viewport::Viewport() : $/;"	f	class:Viewport
+Viewport	viewport.h	/^class Viewport {$/;"	c
+WIDTH	frameGenerator.h	/^  const int WIDTH;$/;"	m	class:FrameGenerator	typeref:typename:const int
+World	world.cpp	/^World::World(const std::string& name, int fact) : $/;"	f	class:World
+World	world.h	/^class World {$/;"	c
+_LIGHT_H_	light.h	/^#define _LIGHT_H_$/;"	d
+_TRIPLE_H_	triple.h	/^#define _TRIPLE_H_$/;"	d
+__UNPACK_H__	spriteSheet.h	/^#define __UNPACK_H__$/;"	d
+__anon12c9a1e10102	vector2f.cpp	/^float Vector2f::operator[](int index) const {$/;"	f	file:
+__anon12c9a1e10202	vector2f.cpp	/^Vector2f Vector2f::operator*(float scale) const {$/;"	f	file:
+__anon818895a60102	triple.cpp	/^double Triple::operator[](int index) const {$/;"	f	file:
+__anon818895a60202	triple.cpp	/^std::string Triple::toString() const {$/;"	f	file:
+__anondaa73a2d0102	sprite.cpp	/^  newvx *= [](){ if(rand()%2) return -1; else return 1; }();$/;"	f	function:Sprite::makeVelocity	file:
+__anondaa73a2d0202	sprite.cpp	/^  newvy *= [](){ if(rand()%2) return -1; else return 1; }();$/;"	f	function:Sprite::makeVelocity	file:
+__anondaa73a2d0310	sprite.cpp	/^inline namespace{$/;"	n	file:
+addLight	lights.cpp	/^void Lights::addLight(const Triple& triple, int brightness) {$/;"	f	class:Lights	typeref:typename:void
+addLights	lights.cpp	/^void Lights::addLights( ) {$/;"	f	class:Lights	typeref:typename:void
+advanceFrame	multisprite.cpp	/^void MultiSprite::advanceFrame(Uint32 ticks) {$/;"	f	class:MultiSprite	typeref:typename:void
+averageDistance	light.cpp	/^double Light::averageDistance(const std::vector<Triple>& verts) const {$/;"	f	class:Light	typeref:typename:double
+bright	light.h	/^   double bright() const { return brightness; }$/;"	f	class:Light	typeref:typename:double
+brightness	light.h	/^   double brightness;$/;"	m	class:Light	typeref:typename:double
+buff	parseXML.h	/^  char buff[BUFSIZE];$/;"	m	class:ParseXML	typeref:typename:char[]
+chars	parseXML.cpp	/^void ParseXML::chars(const char *text, int textlen) {$/;"	f	class:ParseXML	typeref:typename:void
+checkTag	gamedata.cpp	/^bool  Gamedata::checkTag(const std::string& tag)const{$/;"	f	class:Gamedata	typeref:typename:bool
+clean	Makefile	/^clean:$/;"	t
+clock	engine.h	/^  Clock& clock;$/;"	m	class:Engine	typeref:typename:Clock &
+crop	image.cpp	/^Image* Image::crop(SDL_Rect sub)const{$/;"	f	class:Image	typeref:typename:Image *
+cropSurface	spriteSheet.cpp	/^SDL_Surface* cropSurface(SDL_Surface* surf,$/;"	f	typeref:typename:SDL_Surface *
+cross	triple.cpp	/^Triple Triple::cross(const Triple& a) const {$/;"	f	class:Triple	typeref:typename:Triple
+cross	vector2f.cpp	/^Vector2f Vector2f::cross(const Vector2f &) const {$/;"	f	class:Vector2f	typeref:typename:Vector2f
+currTicks	clock.h	/^  unsigned int currTicks;$/;"	m	class:Clock	typeref:typename:unsigned int
+currentFrame	multisprite.h	/^  unsigned currentFrame;$/;"	m	class:MultiSprite	typeref:typename:unsigned
+currentSprite	engine.h	/^  int currentSprite;$/;"	m	class:Engine	typeref:typename:int
+diff	triple.cpp	/^Triple Triple::diff(const Triple& a) const {$/;"	f	class:Triple	typeref:typename:Triple
+diffuseGridX	lights.h	/^  unsigned int diffuseGridX;$/;"	m	class:Lights	typeref:typename:unsigned int
+diffuseGridY	lights.h	/^  unsigned int diffuseGridY;$/;"	m	class:Lights	typeref:typename:unsigned int
+displayData	gamedata.cpp	/^void Gamedata::displayData() const {$/;"	f	class:Gamedata	typeref:typename:void
+displayData	parseXML.cpp	/^void ParseXML::displayData() const {$/;"	f	class:ParseXML	typeref:typename:void
+dot	triple.cpp	/^double Triple::dot(const Triple& a) const {$/;"	f	class:Triple	typeref:typename:double
+dot	vector2f.cpp	/^float Vector2f::dot(const Vector2f &other) const {$/;"	f	class:Vector2f	typeref:typename:float
+draw	engine.cpp	/^void Engine::draw() const {$/;"	f	class:Engine	typeref:typename:void
+draw	image.cpp	/^void Image::draw(int sx, int sy, int dx, int dy) const {$/;"	f	class:Image	typeref:typename:void
+draw	image.cpp	/^void Image::draw(int x, int y) const {$/;"	f	class:Image	typeref:typename:void
+draw	image.cpp	/^void Image::draw(int x, int y, float scale) const {$/;"	f	class:Image	typeref:typename:void
+draw	lights.cpp	/^void Lights::draw( ) const {$/;"	f	class:Lights	typeref:typename:void
+draw	multisprite.cpp	/^void MultiSprite::draw() const { $/;"	f	class:MultiSprite	typeref:typename:void
+draw	sprite.cpp	/^void Sprite::draw() const { $/;"	f	class:Sprite	typeref:typename:void
+draw	viewport.cpp	/^void Viewport::draw() const {$/;"	f	class:Viewport	typeref:typename:void
+draw	world.cpp	/^void World::draw() const { $/;"	f	class:World	typeref:typename:void
+drawIllumination	light.cpp	/^void Light::drawIllumination(SDL_Renderer *s, const std::list<Light*>& ll,$/;"	f	class:Light	typeref:typename:void
+effectiveRad	light.h	/^   double effectiveRad;$/;"	m	class:Light	typeref:typename:double
+end	parseXML.cpp	/^void ParseXML::end(const char *tagEnd) {$/;"	f	class:ParseXML	typeref:typename:void
+factor	world.h	/^  int factor;$/;"	m	class:World	typeref:typename:int
+factory	renderContext.h	/^  ImageFactory* factory;$/;"	m	class:RenderContext	typeref:typename:ImageFactory *
+filename	parseXML.h	/^  const string filename;$/;"	m	class:ParseXML	typeref:typename:const string
+font	ioMod.h	/^  TTF_Font* font;$/;"	m	class:IOmod	typeref:typename:TTF_Font *
+frameCount	frameGenerator.h	/^  int frameCount;$/;"	m	class:FrameGenerator	typeref:typename:int
+frameInterval	multisprite.h	/^  unsigned frameInterval;$/;"	m	class:MultiSprite	typeref:typename:unsigned
+frames	clock.h	/^  unsigned int frames;$/;"	m	class:Clock	typeref:typename:unsigned int
+gameData	gamedata.h	/^  const map<std::string, std::string> gameData;$/;"	m	class:Gamedata	typeref:typename:const map<std::string,std::string>
+gdata	imageFactory.h	/^  const Gamedata& gdata;$/;"	m	class:ImageFactory	typeref:typename:const Gamedata &
+gdata	lights.h	/^  Gamedata& gdata;$/;"	m	class:Lights	typeref:typename:Gamedata &
+gdata	viewport.h	/^  const Gamedata& gdata;$/;"	m	class:Viewport	typeref:typename:const Gamedata &
+get	spriteSheet.cpp	/^SDL_Surface* SpriteSheet::get(unsigned c){$/;"	f	class:SpriteSheet	typeref:typename:SDL_Surface *
+get	spriteSheet.cpp	/^SDL_Surface* SpriteSheet::get(unsigned i, unsigned j){$/;"	f	class:SpriteSheet	typeref:typename:SDL_Surface *
+getColumns	spriteSheet.h	/^  unsigned getColumns()const{ return Nc; }$/;"	f	class:SpriteSheet	typeref:typename:unsigned
+getElapsedTicks	clock.cpp	/^unsigned int Clock::getElapsedTicks() { $/;"	f	class:Clock	typeref:typename:unsigned int
+getFps	clock.cpp	/^int Clock::getFps() const { $/;"	f	class:Clock	typeref:typename:int
+getFrameCount	frameGenerator.h	/^  unsigned int getFrameCount() const { return frameCount; }$/;"	f	class:FrameGenerator	typeref:typename:unsigned int
+getFrames	clock.h	/^  unsigned int getFrames() const  { return frames;  }$/;"	f	class:Clock	typeref:typename:unsigned int
+getFrames	spriteSheet.h	/^  unsigned getFrames()const{ return N; }$/;"	f	class:SpriteSheet	typeref:typename:unsigned
+getHeight	image.h	/^  inline int getHeight() const { return surface->h; }$/;"	f	class:Image	typeref:typename:int
+getImage	imageFactory.cpp	/^Image* ImageFactory::getImage(const std::string& name) {$/;"	f	class:ImageFactory	typeref:typename:Image *
+getImage	multisprite.h	/^  virtual const Image* getImage() const { $/;"	f	class:MultiSprite	typeref:typename:const Image *
+getImage	renderContext.h	/^  Image* getImage(const std::string& n) { $/;"	f	class:RenderContext	typeref:typename:Image *
+getImage	sprite.h	/^  virtual const Image* getImage() const { return image; }$/;"	f	class:Sprite	typeref:typename:const Image *
+getImages	imageFactory.cpp	/^std::vector<Image*> ImageFactory::getImages(const std::string& name) {$/;"	f	class:ImageFactory	typeref:typename:std::vector<Image * >
+getImages	renderContext.h	/^  std::vector<Image*> getImages(const std::string& n) {$/;"	f	class:RenderContext	typeref:typename:std::vector<Image * >
+getInstance	clock.cpp	/^Clock& Clock::getInstance() {$/;"	f	class:Clock	typeref:typename:Clock &
+getInstance	gamedata.cpp	/^Gamedata& Gamedata::getInstance() {$/;"	f	class:Gamedata	typeref:typename:Gamedata &
+getInstance	imageFactory.cpp	/^ImageFactory* ImageFactory::getInstance() {$/;"	f	class:ImageFactory	typeref:typename:ImageFactory *
+getInstance	ioMod.cpp	/^IOmod& IOmod::getInstance() {$/;"	f	class:IOmod	typeref:typename:IOmod &
+getInstance	renderContext.cpp	/^RenderContext* RenderContext::getInstance() {$/;"	f	class:RenderContext	typeref:typename:RenderContext *
+getInstance	viewport.cpp	/^Viewport& Viewport::getInstance() {$/;"	f	class:Viewport	typeref:typename:Viewport &
+getName	drawable.h	/^  const std::string& getName() const { return name; }$/;"	f	class:Drawable	typeref:typename:const std::string &
+getObjectToTrack	viewport.h	/^  const Drawable* getObjectToTrack() const { return objectToTrack; } $/;"	f	class:Viewport	typeref:typename:const Drawable *
+getPosition	drawable.h	/^  const Vector2f& getPosition() const    { return position; }$/;"	f	class:Drawable	typeref:typename:const Vector2f &
+getPosition	viewport.h	/^  Vector2f getPosition() const { return position; }$/;"	f	class:Viewport	typeref:typename:Vector2f
+getRandFloat	gamedata.cpp	/^float Gamedata::getRandFloat(float min, float max) const {$/;"	f	class:Gamedata	typeref:typename:float
+getRandInRange	gamedata.cpp	/^float Gamedata::getRandInRange(int min, int max) const {$/;"	f	class:Gamedata	typeref:typename:float
+getRenderer	ioMod.h	/^  SDL_Renderer* getRenderer() const { return renderer; }$/;"	f	class:IOmod	typeref:typename:SDL_Renderer *
+getRenderer	renderContext.h	/^  SDL_Renderer* getRenderer() const { return renderer; }$/;"	f	class:RenderContext	typeref:typename:SDL_Renderer *
+getRows	spriteSheet.h	/^  unsigned getRows()const{ return Nr; }$/;"	f	class:SpriteSheet	typeref:typename:unsigned
+getScale	drawable.h	/^  float getScale() const  { return scale; }$/;"	f	class:Drawable	typeref:typename:float
+getScaledHeight	multisprite.h	/^  int getScaledHeight()  const { $/;"	f	class:MultiSprite	typeref:typename:int
+getScaledHeight	sprite.h	/^  int getScaledHeight() const { return getScale()*image->getHeight(); } $/;"	f	class:Sprite	typeref:typename:int
+getScaledWidth	multisprite.h	/^  int getScaledWidth()  const { $/;"	f	class:MultiSprite	typeref:typename:int
+getScaledWidth	sprite.h	/^  int getScaledWidth()  const { return getScale()*image->getWidth();  } $/;"	f	class:Sprite	typeref:typename:int
+getSeconds	clock.h	/^  unsigned int getSeconds() const { return getTicks()\/1000;  }$/;"	f	class:Clock	typeref:typename:unsigned int
+getSurface	image.h	/^  SDL_Surface* getSurface() const { return surface; }$/;"	f	class:Image	typeref:typename:SDL_Surface *
+getSurface	multisprite.h	/^  virtual const SDL_Surface* getSurface() const { $/;"	f	class:MultiSprite	typeref:typename:const SDL_Surface *
+getSurface	sprite.h	/^  virtual const SDL_Surface* getSurface() const { $/;"	f	class:Sprite	typeref:typename:const SDL_Surface *
+getTicks	clock.cpp	/^unsigned int Clock::getTicks() const { $/;"	f	class:Clock	typeref:typename:unsigned int
+getVelocity	drawable.h	/^  const Vector2f& getVelocity() const    { return velocity; }$/;"	f	class:Drawable	typeref:typename:const Vector2f &
+getVelocityX	drawable.h	/^  float getVelocityX() const   { return velocity[0]; }$/;"	f	class:Drawable	typeref:typename:float
+getVelocityY	drawable.h	/^  float getVelocityY() const   { return velocity[1]; }$/;"	f	class:Drawable	typeref:typename:float
+getWidth	image.h	/^  inline int getWidth()  const { return surface->w; }$/;"	f	class:Image	typeref:typename:int
+getWindow	renderContext.h	/^  SDL_Window* getWindow() const { return window; }$/;"	f	class:RenderContext	typeref:typename:SDL_Window *
+getX	drawable.h	/^  float getX() const  { return position[0]; }$/;"	f	class:Drawable	typeref:typename:float
+getX	triple.h	/^   inline double getX() const { return x; }$/;"	f	class:Triple	typeref:typename:double
+getX	viewport.h	/^  float getX() const  { return position[0]; }$/;"	f	class:Viewport	typeref:typename:float
+getXmlBool	gamedata.cpp	/^bool Gamedata::getXmlBool(const string& tag) const {$/;"	f	class:Gamedata	typeref:typename:bool
+getXmlData	parseXML.h	/^  const map<string, string> getXmlData() const { return xmlData; }$/;"	f	class:ParseXML	typeref:typename:const map<string,string>
+getXmlFloat	gamedata.cpp	/^float Gamedata::getXmlFloat(const string& tag) const {$/;"	f	class:Gamedata	typeref:typename:float
+getXmlInt	gamedata.cpp	/^int Gamedata::getXmlInt(const string& tag) const {$/;"	f	class:Gamedata	typeref:typename:int
+getXmlStr	gamedata.cpp	/^const string& Gamedata::getXmlStr(const string& tag) const {$/;"	f	class:Gamedata	typeref:typename:const string &
+getY	drawable.h	/^  float getY() const  { return position[1]; }$/;"	f	class:Drawable	typeref:typename:float
+getY	triple.h	/^   inline double getY() const { return y; }$/;"	f	class:Triple	typeref:typename:double
+getY	viewport.h	/^  float getY() const  { return position[1]; }$/;"	f	class:Viewport	typeref:typename:float
+getZ	triple.h	/^   inline double getZ() const { return z; }$/;"	f	class:Triple	typeref:typename:double
+image	sprite.h	/^  const Image * image;$/;"	m	class:Sprite	typeref:typename:const Image *
+image	world.h	/^  Image* const image;$/;"	m	class:World	typeref:typename:Image * const
+imageWidth	world.h	/^  unsigned imageWidth;$/;"	m	class:World	typeref:typename:unsigned
+images	imageFactory.h	/^  std::map<std::string, Image*> images;$/;"	m	class:ImageFactory	typeref:typename:std::map<std::string,Image * >
+images	multisprite.h	/^  std::vector<Image *> images;$/;"	m	class:MultiSprite	typeref:typename:std::vector<Image * >
+incrFrame	clock.cpp	/^void Clock::incrFrame() { $/;"	f	class:Clock	typeref:typename:void
+init	ioMod.h	/^  int init;$/;"	m	class:IOmod	typeref:typename:int
+initRenderer	renderContext.cpp	/^SDL_Renderer* RenderContext::initRenderer() {$/;"	f	class:RenderContext	typeref:typename:SDL_Renderer *
+initWindow	renderContext.cpp	/^SDL_Window* RenderContext::initWindow( ) {$/;"	f	class:RenderContext	typeref:typename:SDL_Window *
+instance	imageFactory.h	/^  static ImageFactory* instance;$/;"	m	class:ImageFactory	typeref:typename:ImageFactory *
+instance	main.cpp	/^ImageFactory*  ImageFactory::instance = NULL;$/;"	m	class:ImageFactory	typeref:typename:ImageFactory *
+instance	main.cpp	/^RenderContext* RenderContext::instance = NULL;$/;"	m	class:RenderContext	typeref:typename:RenderContext *
+instance	renderContext.h	/^  static RenderContext* instance;$/;"	m	class:RenderContext	typeref:typename:RenderContext *
+io	engine.h	/^  const IOmod& io;$/;"	m	class:Engine	typeref:typename:const IOmod &
+isPaused	clock.h	/^  bool isPaused() const  { return paused;  }$/;"	f	class:Clock	typeref:typename:bool
+isStarted	clock.h	/^  bool isStarted() const { return started; }$/;"	f	class:Clock	typeref:typename:bool
+len	triple.cpp	/^double Triple::len() const {$/;"	f	class:Triple	typeref:typename:double
+lights	engine.h	/^  Lights lights;$/;"	m	class:Engine	typeref:typename:Lights
+lights	lights.h	/^  std::list<Light*> lights;$/;"	m	class:Lights	typeref:typename:std::list<Light * >
+loc	light.h	/^   Triple loc;$/;"	m	class:Light	typeref:typename:Triple
+magnitude	vector2f.cpp	/^float Vector2f::magnitude() const {$/;"	f	class:Vector2f	typeref:typename:float
+magnitudeSquared	vector2f.cpp	/^float Vector2f::magnitudeSquared() const {$/;"	f	class:Vector2f	typeref:typename:float
+main	main.cpp	/^int main(int, char*[]) {$/;"	f	typeref:typename:int
+makeFrame	frameGenerator.cpp	/^void FrameGenerator::makeFrame() {$/;"	f	class:FrameGenerator	typeref:typename:void
+makeTag	parseXML.cpp	/^std::string ParseXML::makeTag() const {$/;"	f	class:ParseXML	typeref:typename:std::string
+makeTag	parseXML.cpp	/^std::string ParseXML::makeTag(const std::string& name) const {$/;"	f	class:ParseXML	typeref:typename:std::string
+makeVelocity	sprite.cpp	/^Vector2f Sprite::makeVelocity(int vx, int vy) const {$/;"	f	class:Sprite	typeref:typename:Vector2f
+makeVideo	engine.h	/^  bool makeVideo;$/;"	m	class:Engine	typeref:typename:bool
+multiImages	imageFactory.h	/^  std::map<std::string, std::vector<Image*> > multiImages;$/;"	m	class:ImageFactory	typeref:typename:std::map<std::string,std::vector<Image * >>
+multiSurfaces	imageFactory.h	/^  std::map<std::string, std::vector<SDL_Surface*> > multiSurfaces;$/;"	m	class:ImageFactory	typeref:typename:std::map<std::string,std::vector<SDL_Surface * >>
+multiTextures	imageFactory.h	/^  std::map<std::string, std::vector<SDL_Texture*> > multiTextures;$/;"	m	class:ImageFactory	typeref:typename:std::map<std::string,std::vector<SDL_Texture * >>
+name	drawable.h	/^  std::string name;$/;"	m	class:Drawable	typeref:typename:std::string
+normalize	vector2f.cpp	/^Vector2f Vector2f::normalize() const {$/;"	f	class:Vector2f	typeref:typename:Vector2f
+normalized	triple.cpp	/^Triple Triple::normalized() const {$/;"	f	class:Triple	typeref:typename:Triple
+numberOfFrames	multisprite.h	/^  unsigned numberOfFrames;$/;"	m	class:MultiSprite	typeref:typename:unsigned
+objHeight	viewport.h	/^  int objHeight;$/;"	m	class:Viewport	typeref:typename:int
+objWidth	viewport.h	/^  int objWidth;$/;"	m	class:Viewport	typeref:typename:int
+objectToTrack	viewport.h	/^  const Drawable *objectToTrack;$/;"	m	class:Viewport	typeref:typename:const Drawable *
+operator !=	vector2f.h	/^  bool operator!=(const Vector2f &other) const {$/;"	f	class:Vector2f	typeref:typename:bool
+operator ()	spriteSheet.h	/^  inline SDL_Surface* operator()(unsigned i, unsigned j){$/;"	f	class:SpriteSheet	typeref:typename:SDL_Surface *
+operator *	triple.h	/^   Triple operator*(double s) const { return scale(s); }$/;"	f	class:Triple	typeref:typename:Triple
+operator *	triple.h	/^   double operator*(const Triple& s) const { return dot(s); }$/;"	f	class:Triple	typeref:typename:double
+operator *	vector2f.cpp	/^Vector2f operator*(float scale, const Vector2f &v) {$/;"	f	typeref:typename:Vector2f
+operator *=	vector2f.cpp	/^const Vector2f &Vector2f::operator*=(float scale) {$/;"	f	class:Vector2f	typeref:typename:const Vector2f &
+operator +	triple.h	/^   Triple operator+(const Triple& s) const { return sum(s); }$/;"	f	class:Triple	typeref:typename:Triple
+operator +	vector2f.cpp	/^Vector2f Vector2f::operator+(const Vector2f &other) const {$/;"	f	class:Vector2f	typeref:typename:Vector2f
+operator +=	vector2f.cpp	/^const Vector2f &Vector2f::operator+=(const Vector2f &other) {$/;"	f	class:Vector2f	typeref:typename:const Vector2f &
+operator -	triple.h	/^   Triple operator-(const Triple& s) const { return diff(s); }$/;"	f	class:Triple	typeref:typename:Triple
+operator -	vector2f.cpp	/^Vector2f Vector2f::operator-() const {$/;"	f	class:Vector2f	typeref:typename:Vector2f
+operator -	vector2f.cpp	/^Vector2f Vector2f::operator-(const Vector2f &other) const {$/;"	f	class:Vector2f	typeref:typename:Vector2f
+operator -=	vector2f.cpp	/^const Vector2f &Vector2f::operator-=(const Vector2f &other) {$/;"	f	class:Vector2f	typeref:typename:const Vector2f &
+operator /=	vector2f.cpp	/^const Vector2f &Vector2f::operator\/=(float scale) {$/;"	f	class:Vector2f	typeref:typename:const Vector2f &
+operator <<	vector2f.cpp	/^std::ostream &operator<<(std::ostream &output, const Vector2f &v) {$/;"	f	typeref:typename:std::ostream &
+operator =	image.cpp	/^Image& Image::operator=(const Image& rhs) {$/;"	f	class:Image	typeref:typename:Image &
+operator =	light.h	/^   Light& operator=(const Light& l) {$/;"	f	class:Light	typeref:typename:Light &
+operator =	multisprite.cpp	/^MultiSprite& MultiSprite::operator=(const MultiSprite& s) {$/;"	f	class:MultiSprite	typeref:typename:MultiSprite &
+operator =	sprite.cpp	/^Sprite& Sprite::operator=(const Sprite& rhs) {$/;"	f	class:Sprite	typeref:typename:Sprite &
+operator =	triple.h	/^   Triple& operator=(const Triple& s) {$/;"	f	class:Triple	typeref:typename:Triple &
+operator =	vector2f.cpp	/^Vector2f& Vector2f::operator=(const Vector2f& rhs) {$/;"	f	class:Vector2f	typeref:typename:Vector2f &
+operator ==	vector2f.h	/^  bool operator==(const Vector2f &other) const {$/;"	f	class:Vector2f	typeref:typename:bool
+operator []	spriteSheet.h	/^  inline SDL_Surface* operator[](unsigned c){$/;"	f	class:SpriteSheet	typeref:typename:SDL_Surface *
+operator []	triple.cpp	/^double Triple::operator[](int index) const {$/;"	f	class:Triple	typeref:typename:double
+operator []	vector2f.cpp	/^float &Vector2f::operator[](int index) {$/;"	f	class:Vector2f	typeref:typename:float &
+owning	spriteSheet.h	/^  bool owning;$/;"	m	class:SpriteSheet	typeref:typename:bool
+parseXML	parseXML.cpp	/^void ParseXML::parseXML() {$/;"	f	class:ParseXML	typeref:typename:void
+parser	gamedata.h	/^  ParseXML parser;$/;"	m	class:Gamedata	typeref:typename:ParseXML
+parser	parseXML.h	/^  XML_Parser parser;$/;"	m	class:ParseXML	typeref:typename:XML_Parser
+pause	clock.cpp	/^void Clock::pause() {$/;"	f	class:Clock	typeref:typename:void
+paused	clock.h	/^  bool paused;$/;"	m	class:Clock	typeref:typename:bool
+play	engine.cpp	/^void Engine::play() {$/;"	f	class:Engine	typeref:typename:void
+pos	light.cpp	/^const Triple& Light::pos() const {$/;"	f	class:Light	typeref:typename:const Triple &
+pos	light.h	/^   void pos(const Triple& v) { loc = v; }$/;"	f	class:Light	typeref:typename:void
+position	drawable.h	/^  Vector2f position;$/;"	m	class:Drawable	typeref:typename:Vector2f
+position	viewport.h	/^  Vector2f position;$/;"	m	class:Viewport	typeref:typename:Vector2f
+prevTicks	clock.h	/^  unsigned int prevTicks;$/;"	m	class:Clock	typeref:typename:unsigned int
+rc	engine.h	/^  const RenderContext* rc;$/;"	m	class:Engine	typeref:typename:const RenderContext *
+readSurface	ioMod.cpp	/^SDL_Surface* IOmod::readSurface(const std::string& filename) {$/;"	f	class:IOmod	typeref:typename:SDL_Surface *
+readTexture	ioMod.cpp	/^SDL_Texture* IOmod::readTexture(const std::string& filename) {$/;"	f	class:IOmod	typeref:typename:SDL_Texture *
+rend	frameGenerator.h	/^  SDL_Renderer* const rend;$/;"	m	class:FrameGenerator	typeref:typename:SDL_Renderer * const
+renderer	engine.h	/^  SDL_Renderer * const renderer;$/;"	m	class:Engine	typeref:typename:SDL_Renderer * const
+renderer	image.h	/^  SDL_Renderer * renderer;$/;"	m	class:Image	typeref:typename:SDL_Renderer *
+renderer	ioMod.h	/^  SDL_Renderer* renderer;$/;"	m	class:IOmod	typeref:typename:SDL_Renderer *
+renderer	lights.h	/^  SDL_Renderer* renderer;$/;"	m	class:Lights	typeref:typename:SDL_Renderer *
+renderer	renderContext.h	/^  SDL_Renderer* renderer;$/;"	m	class:RenderContext	typeref:typename:SDL_Renderer *
+scale	drawable.h	/^  float scale;$/;"	m	class:Drawable	typeref:typename:float
+scale	triple.cpp	/^Triple Triple::scale(double s) const {$/;"	f	class:Triple	typeref:typename:Triple
+setName	drawable.h	/^  void setName(const std::string& n) { name = n;    }$/;"	f	class:Drawable	typeref:typename:void
+setObjectToTrack	viewport.cpp	/^void Viewport::setObjectToTrack(const Drawable *obj) { $/;"	f	class:Viewport	typeref:typename:void
+setPosition	drawable.h	/^  void  setPosition(const Vector2f& pos) { position = pos;  }$/;"	f	class:Drawable	typeref:typename:void
+setScale	drawable.h	/^  void  setScale(float s) { scale = s; }$/;"	f	class:Drawable	typeref:typename:void
+setVelocity	drawable.h	/^  void  setVelocity(const Vector2f& vel) { velocity = vel;  }$/;"	f	class:Drawable	typeref:typename:void
+setVelocityX	drawable.h	/^  void  setVelocityX(float vx) { velocity[0] = vx;   }$/;"	f	class:Drawable	typeref:typename:void
+setVelocityY	drawable.h	/^  void  setVelocityY(float vy) { velocity[1] = vy;   }$/;"	f	class:Drawable	typeref:typename:void
+setX	drawable.h	/^  void  setX(float x) { position[0] = x;    }$/;"	f	class:Drawable	typeref:typename:void
+setX	viewport.h	/^  void  setX(float x) { position[0] = x; }$/;"	f	class:Viewport	typeref:typename:void
+setY	drawable.h	/^  void  setY(float y) { position[1] = y;    }$/;"	f	class:Drawable	typeref:typename:void
+setY	viewport.h	/^  void  setY(float y) { position[1] = y; }$/;"	f	class:Viewport	typeref:typename:void
+shadowDarknessAtDistance	light.cpp	/^Uint8 Light::shadowDarknessAtDistance(double d) const {$/;"	f	class:Light	typeref:typename:Uint8
+spinningStar	engine.h	/^  Drawable* spinningStar;$/;"	m	class:Engine	typeref:typename:Drawable *
+src	spriteSheet.h	/^  SDL_Surface* src;$/;"	m	class:SpriteSheet	typeref:typename:SDL_Surface *
+star	engine.h	/^  Drawable* star;$/;"	m	class:Engine	typeref:typename:Drawable *
+start	parseXML.cpp	/^void ParseXML::start(const char *el, const char *attr[]) {$/;"	f	class:ParseXML	typeref:typename:void
+startClock	clock.cpp	/^void Clock::startClock() { $/;"	f	class:Clock	typeref:typename:void
+started	clock.h	/^  bool started;$/;"	m	class:Clock	typeref:typename:bool
+stripTrailWhiteSpace	parseXML.cpp	/^void ParseXML::stripTrailWhiteSpace(string& str) const {$/;"	f	class:ParseXML	typeref:typename:void
+sum	triple.cpp	/^Triple Triple::sum(const Triple& a) const {$/;"	f	class:Triple	typeref:typename:Triple
+surface	image.h	/^  SDL_Surface * surface;$/;"	m	class:Image	typeref:typename:SDL_Surface *
+surfaces	imageFactory.h	/^  std::map<std::string, SDL_Surface*> surfaces;$/;"	m	class:ImageFactory	typeref:typename:std::map<std::string,SDL_Surface * >
+switchSprite	engine.cpp	/^void Engine::switchSprite(){$/;"	f	class:Engine	typeref:typename:void
+tagNames	parseXML.h	/^  std::deque<string>  tagNames;$/;"	m	class:ParseXML	typeref:typename:std::deque<string>
+textColor	ioMod.h	/^  SDL_Color textColor;$/;"	m	class:IOmod	typeref:typename:SDL_Color
+texture	image.h	/^  SDL_Texture * texture;$/;"	m	class:Image	typeref:typename:SDL_Texture *
+textures	imageFactory.h	/^  std::map<std::string, SDL_Texture*> textures;$/;"	m	class:ImageFactory	typeref:typename:std::map<std::string,SDL_Texture * >
+ticks	clock.h	/^  unsigned int ticks;$/;"	m	class:Clock	typeref:typename:unsigned int
+timeAtPause	clock.h	/^  unsigned int timeAtPause;$/;"	m	class:Clock	typeref:typename:unsigned int
+timeAtStart	clock.h	/^  unsigned int timeAtStart;$/;"	m	class:Clock	typeref:typename:unsigned int
+timeSinceLastFrame	multisprite.h	/^  float timeSinceLastFrame;$/;"	m	class:MultiSprite	typeref:typename:float
+toggleSloMo	clock.cpp	/^void Clock::toggleSloMo() {$/;"	f	class:Clock	typeref:typename:void
+translated	light.h	/^   Triple translated;$/;"	m	class:Light	typeref:typename:Triple
+unpause	clock.cpp	/^void Clock::unpause() {$/;"	f	class:Clock	typeref:typename:void
+update	engine.cpp	/^void Engine::update(Uint32 ticks) {$/;"	f	class:Engine	typeref:typename:void
+update	light.cpp	/^void Light::update() {$/;"	f	class:Light	typeref:typename:void
+update	lights.cpp	/^void Lights::update( ) const {$/;"	f	class:Lights	typeref:typename:void
+update	multisprite.cpp	/^void MultiSprite::update(Uint32 ticks) { $/;"	f	class:MultiSprite	typeref:typename:void
+update	sprite.cpp	/^void Sprite::update(Uint32 ticks) { $/;"	f	class:Sprite	typeref:typename:void
+update	viewport.cpp	/^void Viewport::update() {$/;"	f	class:Viewport	typeref:typename:void
+update	world.cpp	/^void World::update() {$/;"	f	class:World	typeref:typename:void
+v	vector2f.h	/^  float v[2];$/;"	m	class:Vector2f	typeref:typename:float[2]
+velocity	drawable.h	/^  Vector2f velocity;$/;"	m	class:Drawable	typeref:typename:Vector2f
+view	image.h	/^  SDL_Rect view;$/;"	m	class:Image	typeref:typename:SDL_Rect
+view	spriteSheet.h	/^  SDL_Rect     view;$/;"	m	class:SpriteSheet	typeref:typename:SDL_Rect
+view	world.h	/^  const Viewport & view;$/;"	m	class:World	typeref:typename:const Viewport &
+viewHeight	lights.h	/^  unsigned int viewHeight;$/;"	m	class:Lights	typeref:typename:unsigned int
+viewHeight	viewport.h	/^  int viewHeight;$/;"	m	class:Viewport	typeref:typename:int
+viewWidth	lights.h	/^  unsigned int viewWidth;$/;"	m	class:Lights	typeref:typename:unsigned int
+viewWidth	viewport.h	/^  int viewWidth;$/;"	m	class:Viewport	typeref:typename:int
+viewX	world.h	/^  float viewX;$/;"	m	class:World	typeref:typename:float
+viewY	world.h	/^  float viewY;$/;"	m	class:World	typeref:typename:float
+viewport	engine.h	/^  Viewport& viewport;$/;"	m	class:Engine	typeref:typename:Viewport &
+window	frameGenerator.h	/^  SDL_Window* const window;$/;"	m	class:FrameGenerator	typeref:typename:SDL_Window * const
+window	renderContext.h	/^  SDL_Window* window;$/;"	m	class:RenderContext	typeref:typename:SDL_Window *
+world	engine.h	/^  World world;$/;"	m	class:Engine	typeref:typename:World
+worldHeight	multisprite.h	/^  int worldHeight;$/;"	m	class:MultiSprite	typeref:typename:int
+worldHeight	sprite.h	/^  int worldHeight;$/;"	m	class:Sprite	typeref:typename:int
+worldHeight	viewport.h	/^  int worldHeight;$/;"	m	class:Viewport	typeref:typename:int
+worldWidth	multisprite.h	/^  int worldWidth;$/;"	m	class:MultiSprite	typeref:typename:int
+worldWidth	sprite.h	/^  int worldWidth;$/;"	m	class:Sprite	typeref:typename:int
+worldWidth	viewport.h	/^  int worldWidth;$/;"	m	class:Viewport	typeref:typename:int
+worldWidth	world.h	/^  unsigned worldWidth;$/;"	m	class:World	typeref:typename:unsigned
+wrapper4Chars	parseXML.cpp	/^void ParseXML::wrapper4Chars(void *data, const char *text, int textlen) {$/;"	f	class:ParseXML	typeref:typename:void
+wrapper4End	parseXML.cpp	/^void ParseXML::wrapper4End(void *data, const char *el) {$/;"	f	class:ParseXML	typeref:typename:void
+wrapper4Start	parseXML.cpp	/^wrapper4Start(void *data, const char *el, const char **attr) {$/;"	f	class:ParseXML	typeref:typename:void
+writeText	ioMod.cpp	/^void IOmod::writeText(const std::string& msg, int x, int y) const {$/;"	f	class:IOmod	typeref:typename:void
+x	triple.h	/^   double x,y,z;$/;"	m	class:Triple	typeref:typename:double
+xmlData	parseXML.h	/^  std::map<string, string> xmlData;$/;"	m	class:ParseXML	typeref:typename:std::map<string,string>
+y	triple.h	/^   double x,y,z;$/;"	m	class:Triple	typeref:typename:double
+z	triple.h	/^   double x,y,z;$/;"	m	class:Triple	typeref:typename:double
+~Drawable	drawable.h	/^  virtual ~Drawable() {}$/;"	f	class:Drawable
+~Engine	engine.cpp	/^Engine::~Engine() { $/;"	f	class:Engine
+~Gamedata	gamedata.cpp	/^Gamedata::~Gamedata( ) { }$/;"	f	class:Gamedata
+~IOmod	ioMod.cpp	/^IOmod::~IOmod() { $/;"	f	class:IOmod
+~ImageFactory	imageFactory.cpp	/^ImageFactory::~ImageFactory() {$/;"	f	class:ImageFactory
+~Lights	lights.cpp	/^Lights::~Lights( ) {$/;"	f	class:Lights
+~ParseXML	parseXML.h	/^  virtual ~ParseXML() { XML_ParserFree(parser); }$/;"	f	class:ParseXML
+~RenderContext	renderContext.cpp	/^RenderContext::~RenderContext() {$/;"	f	class:RenderContext
+~Sprite	sprite.h	/^  virtual ~Sprite() { } $/;"	f	class:Sprite
+~SpriteSheet	spriteSheet.h	/^  ~SpriteSheet(){$/;"	f	class:SpriteSheet
