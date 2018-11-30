@@ -115,7 +115,7 @@
   <scale min="5.0" max="5.0"/>
   <transparency>false</transparency>
   <chunk>
-    <size>16</size>
+    <size>100</size>
     <distance>200</distance>
   </chunk>
 </coin>
@@ -128,7 +128,7 @@
   <speedY>350</speedY>
   <transparency>true</transparency>
   <chunk>
-    <size>9</size>
+    <size>12</size>
     <distance>200</distance>
   </chunk>
 </yellowstar32>

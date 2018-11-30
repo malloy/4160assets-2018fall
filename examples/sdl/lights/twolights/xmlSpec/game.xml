@@ -1,0 +1,71 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>malloy</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1000</width>
+  <height>800</height>
+</world>
+
+<back>
+  <file>assets/checkerboard.bmp</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<numberOfLights>2</numberOfLights>
+<lightSpec lightX1="200" lightY1="200" lightZ1="200" />
+<lightSpec lightX2="800" lightY2="600" lightZ2="200" />
+<!-- larger noneffectiveLighting the smaller the radius of the light -->
+<noneffectiveLighting>100000</noneffectiveLighting>
+<ambientLighting>10000</ambientLighting>
+<brightness>15000000</brightness>
+<diffuseGrid>
+   <x>6</x>
+   <y>6</y>
+</diffuseGrid>
+
+<SpinningStar>
+  <file>assets/spinstar.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SpinningStar>
+
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</YellowStar>
+
+</GameData>

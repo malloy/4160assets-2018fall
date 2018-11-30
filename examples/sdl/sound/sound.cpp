@@ -18,7 +18,7 @@ SDLSound::~SDLSound() {
 }
 
 SDLSound::SDLSound() : 
-  volume(SDL_MIX_MAXVOLUME/10), 
+  volume(SDL_MIX_MAXVOLUME), 
   currentSound(-1), 
   music(NULL),
   audioRate(22050), 
@@ -70,7 +70,7 @@ void SDLSound::operator[](int index) {
 
 void SDLSound::startMusic() {
   Mix_VolumeMusic(volume);
-  Mix_PlayMusic(music, -1);
+  Mix_PlayMusic(music, 1);
 }
 
 void SDLSound::stopMusic() {
