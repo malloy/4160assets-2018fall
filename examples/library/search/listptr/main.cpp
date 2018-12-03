@@ -49,7 +49,7 @@ int main() {
   print(numberList);
 
   std::list<Number*>::iterator it = 
-    find_if( numberList.begin(), numberList.end(), Target(rand()%50) );
+    std::find_if( numberList.begin(), numberList.end(), Target(rand()%50) );
 
   if (  it == numberList.end() ) std::cout << "NO" << std::endl;
   else std::cout << "YES" << std::endl;
