@@ -1,0 +1,100 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>malloy</username>
+
+<numberOfStars>25</numberOfStars>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1000</width>
+  <height>600</height>
+</world>
+
+<back>
+  <file>assets/checkerboard.bmp</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<SpinningStar>
+  <file>assets/spinstar.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>350</speedX>
+  <speedY>350</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</SpinningStar>
+
+<!-- The coin was drawn by Nathan Welch -->
+<coin>
+  <file>assets/coin.png</file>
+  <width>50</width>
+  <imageWidth>50</imageWidth>
+  <height>55</height>
+  <imageHeight>55</imageHeight>
+  <src x="0" y="0"/>
+  <startLoc x="100" y="550"/>
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <cushion>50</cushion>
+  <scale min="5.0" max="5.0"/>
+  <transparency>false</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</coin>
+
+
+<yellowstar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>350</speedX>
+  <speedY>350</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</yellowstar>
+
+<greenorb>
+  <file>assets/greenball.bmp</file>
+  <startLoc x="320" y="240"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+</GameData>

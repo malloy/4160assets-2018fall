@@ -1,0 +1,38 @@
+To incorporate the game over screen:
+
+-- Changes in main to permit recreation of the engine
+  -- Loop (does it have to be a pointer?)
+  -- Receive booleam from Engine::play()
+
+-- Changes to engine.h:
+  -- convert Engine::play return value from void to bool
+  -- Review changes in engine.h ==> player and sprites
+
+-- Changes to engine.cpp:
+  -- Change engine::play to return bool:
+    -- return true if player chooses R
+    -- return false if reach bottom of event loop
+  -- initialization of assets in constructor
+  -- set objectToTrack to player
+  -- CAUTION -- tracker always needs something to track
+  -- engine::draw -- messages
+  -- engine::update -- remove exploded sprites
+  -- Look at option if player chooses R
+
+-- Changes to Drawable: add two functions: explode, explosionDone
+
+-- Changes to sprite.h:
+  -- add prototypes for explode and explosionDone
+  -- add variable: ExplodingSprite::explosion
+  -- add destructor
+
+-- Changes to sprite.cpp:
+  -- destructor for explosion
+  -- initialize explosion for ALL constructors
+  -- write function Sprite::explode (easy for Sprite)
+  -- write function Sprite::explosionDone
+  -- look at draw
+  -- look at update
+
+-- Changes for MultiSprite:
+  -- explode is different -- check it out
