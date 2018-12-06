@@ -1,0 +1,97 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<world>
+  <worldWidth>800</worldWidth>
+  <worldHeight>800</worldHeight>
+</world>
+
+<screenTitle>Incorporating Artificial Intelligence</screenTitle>
+<numberOfStars>10</numberOfStars>
+<numberOfOrbs>10</numberOfOrbs>
+<!-- 
+  0 is MidPoint
+  1 is Rectangular
+  2 is PerPixel
+ -->
+<collisionStrategy>2</collisionStrategy>
+<safeDistance>75</safeDistance>
+
+<back>
+  <backFile>images/planet.png</backFile>
+  <backFactor>1</backFactor>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backWidth>800</backWidth>
+  <backHeight>800</backHeight>
+  <backTransparency>false</backTransparency>
+</back>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>16</fontSize>
+  <fontRed>255</fontRed>
+  <fontGreen>255</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<flock>
+<flockSprite>star</flockSprite>
+<flockTimeStep>0.05</flockTimeStep>
+<flocknumberOfBoids>20</flocknumberOfBoids>
+<flockmass>1.0</flockmass>
+<flockcohesion_roiX>0</flockcohesion_roiX>
+<flockcohesion_roiY>20</flockcohesion_roiY>
+<flockseparation_roiX>50</flockseparation_roiX>
+<flockseparation_roiY>500</flockseparation_roiY>
+<flockalignment_roiX>50</flockalignment_roiX>
+<flockalignment_roiY>100</flockalignment_roiY>
+<flockavoidance>1000.0</flockavoidance>
+<flockvelocityMatch>1.0</flockvelocityMatch>
+<flockcentering>0.4</flockcentering>
+<flockmaxAccelX>2.5</flockmaxAccelX>
+<flockmaxAccelY>2.5</flockmaxAccelY>
+<flockRandPosOffX>0</flockRandPosOffX>
+<flockRandPosOffY>170</flockRandPosOffY>
+<flockRandVelOffX>0</flockRandVelOffX>
+<flockRandVelOffY>170</flockRandVelOffY>
+</flock>
+
+<star>
+  <starFile>images/star.png</starFile>
+  <starLoc starX="120" starY="140"/>
+
+  <starFrames>4</starFrames>
+  <starFrameInterval>20</starFrameInterval>
+  <starChunks>25</starChunks>
+
+  <starSrcX>0</starSrcX>
+  <starSrcY>0</starSrcY>
+  <starWidth>32</starWidth>
+  <starHeight>32</starHeight>
+  <starSpeedX>-200</starSpeedX>
+  <starSpeedY>200</starSpeedY>
+  <starTransparency>true</starTransparency>
+</star>
+
+<orb>
+  <orbFile>images/yellowball.png</orbFile>
+  <orbSrcX>0</orbSrcX>
+  <orbSrcY>0</orbSrcY>
+  <orbWidth>32</orbWidth>
+  <orbHeight>32</orbHeight>
+  <orbLoc orbX="320" orbY="240"/>
+  <orbSpeed orbSpeedX="175" orbSpeedY="175"/>
+  <orbTransparency>true</orbTransparency>
+  <orbChunkSize>9</orbChunkSize>
+  <orbChunkDistance>200</orbChunkDistance>
+</orb>
+
+</GameData>
