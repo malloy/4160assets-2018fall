@@ -1,0 +1,94 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>malloy</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>800</height>
+</world>
+
+<menu>
+  <width>854</width>
+  <height>480</height>
+  <noOfOptions>3</noOfOptions>
+  <loc x="0" y="0"/>
+  <msg x="30" y="60"/>
+  <optionLoc x="400" y="100" />
+  <color r="193" g="205" b="205" a="255"/>
+  <backColor r="72" g="95" b="119" a="255"/>
+  <option0>Go to Game</option0>
+  <option1>No. of Stars</option1>
+  <option2>Help</option2>
+  <spaces>70</spaces>
+</menu>
+
+<clickOn>
+  <file>assets/clickon.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+  <file>assets/clickoff.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOff>
+
+
+<back>
+  <file>assets/bigstarrysky.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<SpinningStar>
+  <file>assets/spinstar.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <!-- width and height of a single frame -->
+  <!-- Not the total width of the image   -->
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SpinningStar>
+
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</YellowStar>
+
+</GameData>
